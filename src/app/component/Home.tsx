@@ -24,18 +24,6 @@ const Home = () => {
     <div className="w-full sm:h-screen h-full bg-black">
       <div className="w-full h-fit bg-fixed bg-opacity-100 bg-[url('https://images.unsplash.com/photo-1607798748738-b15c40d33d57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8Y29kZXxlbnwwfDB8fHwxNzMyNzk1MjA5fDA&ixlib=rb-4.0.3&q=80&w=1080')] bg-cover bg-center bg-no-repeat">
         <header className="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg bg-black/60">
-          <label htmlFor="menu-toggle" className="pointer-cursor md:hidden block">
-            <svg
-              className="fill-current text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              width={20}
-              height={20}
-              viewBox="0 0 20 20"
-            >
-              <title>menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </label>
           <input className="hidden" type="checkbox" id="menu-toggle" />
         </header>
 
@@ -75,7 +63,7 @@ const Home = () => {
               </div>
             </div>
             <Image
-              className="h-[400px] w-[400px] bg-fixed md:max-w-[30%] sm:max-w-[40%] max-w-[70%] sm:rounded-sm sm:rounded-br-[5rem] sm:rounded-tl-[5rem] rounded-full sm:outline-none outline outline-[.3rem] outline-green-400/60 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="h-[400px] w-[400px] bg-fixed md:max-w-[30%] sm:max-w-[40%] max-w-[70%] sm:rounded-sm sm:rounded-br-[5rem] sm:rounded-tl-[5rem] rounded-full sm:outline-none outline outline-[.3rem] shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
               src="/1.png"
               alt="My Pic"
               height={500}
